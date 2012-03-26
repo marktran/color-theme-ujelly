@@ -56,6 +56,7 @@
           `(magit-diff-file-header ((t (:foreground ,ujelly-yellow-0))))
           `(magit-diff-hunk-header ((t (:foreground nil))))
           `(magit-item-highlight ((t (:background ,ujelly-grey-2))))
+          `(magit-log-sha1 ((t (:foreground ,ujelly-red-2))))
           `(magit-whitespace-warning-face ((t (:background ,ujelly-red-2))))
           `(minibuffer-prompt((t (:foreground ,ujelly-fg))))
           `(mode-line ((t (:foreground ,ujelly-fg))))
