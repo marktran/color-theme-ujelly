@@ -47,7 +47,7 @@
           `(isearch-fail ((t (:background ,ujelly-red-2))))
           `(ido-first-match ((t (:foreground ,ujelly-yellow-0))))
           `(ido-only-match ((t (:foreground ,ujelly-green-0))))
-          `(ido-subdir ((t (:foreground ,ujelly-grey-0))))
+          `(ido-subdir ((t (:foreground ,ujelly-fg))))
           `(lazy-highlight ((t (:foreground nil))))
           `(linum ((t (:italic t :foreground ,ujelly-grey-2))))
           `(magit-branch ((t (:foreground ,ujelly-red-2))))
