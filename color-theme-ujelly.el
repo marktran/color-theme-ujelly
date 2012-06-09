@@ -79,5 +79,7 @@
           `(minibuffer-prompt((t (:foreground ,ujelly-fg))))
           `(mode-line ((t (:foreground ,ujelly-fg))))
           `(mode-line-inactive ((t (:foreground ,ujelly-grey-2))))
+          `(org-checkbox ((t (:foreground ,ujelly-orange-0)))
           `(region ((t (:background ,ujelly-purple-1)))
-          `(trailing-whitespace ((t (:background ,ujelly-red-1)))))))))
+          `(smerge-refined-change ((t (:background ,ujelly-bg)))
+          `(trailing-whitespace ((t (:background ,ujelly-red-1)))))))))))
