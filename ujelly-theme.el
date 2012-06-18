@@ -1,8 +1,8 @@
 ;;; ujelly-theme.el --- Ujelly theme for GNU Emacs 24 (deftheme)
 
-;; Author: Mark Tran <mark.tran@gmail.com
+;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.4
+;; Version: 1.0.5
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -80,7 +80,8 @@
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-2 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-orange-0))))
        `(region ((,class (:background ,ujelly-purple-1))))
-       `(smerge-refined-change ((,class (:background ,ujelly-bg))))
+       `(smerge-markers ((,class (:foreground ,ujelly-yellow-0))))
+       `(smerge-refined-change ((,class (:foreground ,ujelly-green-0))))
        `(trailing-whitespace ((,class (:background ,ujelly-red-1))))))
 
 ;;; ###autoload
