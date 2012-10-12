@@ -31,6 +31,8 @@
        `(compilation-error ((,class (:foreground ,ujelly-red-0))))
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
        `(compilation-line-number ((,class (:foreground ,ujelly-grey-0))))
+       `(diff-file-header ((,class (:background nil))))
+       `(diff-hunk-header ((,class (:background nil))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background nil))))
        `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background nil))))
