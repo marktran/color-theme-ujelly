@@ -42,6 +42,7 @@
        `(diredp-link-priv ((,class (:foreground ,ujelly-green-2))))
        `(diredp-number ((,class (:foreground ,ujelly-fg))))
        `(diredp-no-priv ((,class (:foreground ,ujelly-fg :background nil))))
+       `(diredp-rare-priv ((,class (:foreground ,ujelly-red-0 :background nil))))
        `(diredp-read-priv ((,class (:foreground ,ujelly-green-2 :background nil))))
        `(diredp-symlink ((,class (:foreground ,ujelly-red-1))))
        `(diredp-write-priv ((,class (:foreground ,ujelly-green-2 :background nil))))
