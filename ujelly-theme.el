@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.8
+;; Version: 1.0.9
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -31,8 +31,6 @@
        `(compilation-error ((,class (:foreground ,ujelly-red-0))))
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
        `(compilation-line-number ((,class (:foreground ,ujelly-grey-0))))
-       `(diff-file-header ((,class (:background nil))))
-       `(diff-hunk-header ((,class (:background nil))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background nil))))
        `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background nil))))
@@ -73,8 +71,8 @@
        `(magit-branch ((,class (:foreground ,ujelly-red-2))))
        `(magit-diff-add ((,class (:foreground ,ujelly-green-0))))
        `(magit-diff-del ((,class (:foreground ,ujelly-red-0))))
-       `(magit-diff-file-header ((,class (:foreground ,ujelly-red-2 :background nil))))
-       `(magit-diff-hunk-header ((,class (:foreground ,ujelly-yellow-0 :background nil))))
+       `(magit-diff-file-header ((,class (:inherit nil :foreground ,ujelly-red-2))))
+       `(magit-diff-hunk-header ((,class (:inherit nil :foreground ,ujelly-yellow-0))))
        `(magit-item-highlight ((,class (:background ,ujelly-grey-2))))
        `(magit-log-sha1 ((,class (:foreground ,ujelly-red-2))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
