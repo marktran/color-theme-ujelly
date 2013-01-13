@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.9
+;; Version: 1.0.10
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -23,7 +23,8 @@
       (ujelly-red-0 "#cf6a4c")
       (ujelly-red-1 "#dd0093")
       (ujelly-red-2 "#de5577")
-      (ujelly-yellow-0 "#fad07a"))
+      (ujelly-yellow-0 "#fad07a")
+      (ujelly-yellow-1 "#ffff00"))
 
       (custom-theme-set-faces
        'ujelly
@@ -49,6 +50,8 @@
        `(erc-timestamp-face ((,class (:foreground ,ujelly-purple-0))))
        `(eshell-prompt ((,class (:foreground ,ujelly-red-0))))
        `(eshell-ls-directory ((,class (:foreground ,ujelly-green-2))))
+       `(eshell-ls-executable ((,class (:foreground ,ujelly-red-0))))
+       `(eshell-ls-symlink ((,class (:foreground ,ujelly-red-2))))
        `(font-lock-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(font-lock-comment-face ((,class (:slant italic :foreground ,ujelly-grey-0))))
        `(font-lock-constant-face ((,class (:foreground ,ujelly-green-1))))
@@ -76,7 +79,7 @@
        `(magit-item-highlight ((,class (:background ,ujelly-grey-2))))
        `(magit-log-sha1 ((,class (:foreground ,ujelly-red-2))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
-       `(minibuffer-prompt((,class (:foreground ,ujelly-fg))))
+       `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-2 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-orange-0))))
