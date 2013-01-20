@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.11
+;; Version: 1.0.12
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -20,6 +20,7 @@
       (ujelly-orange-0 "#ffb964")
       (ujelly-purple-0 "#8197bf")
       (ujelly-purple-1 "#474e90")
+      (ujelly-purple-2 "#cd00cd")
       (ujelly-red-0 "#cf6a4c")
       (ujelly-red-1 "#dd0093")
       (ujelly-red-2 "#de5577")
@@ -51,7 +52,7 @@
        `(eshell-prompt ((,class (:foreground ,ujelly-red-0))))
        `(eshell-ls-directory ((,class (:weight normal :foreground ,ujelly-green-2))))
        `(eshell-ls-executable ((,class (:foreground ,ujelly-red-0))))
-       `(eshell-ls-symlink ((,class (:foreground ,ujelly-red-2))))
+       `(eshell-ls-symlink ((,class (:foreground ,ujelly-purple-2))))
        `(font-lock-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(font-lock-comment-face ((,class (:slant italic :foreground ,ujelly-grey-0))))
        `(font-lock-constant-face ((,class (:foreground ,ujelly-green-1))))
