@@ -2,14 +2,14 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.13
+;; Version: 1.0.14
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
       (ujelly-fg "#ffffff")
-      (ujelly-bg "#000000")
+      (ujelly-bg "unspecified-bg")
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
@@ -34,18 +34,18 @@
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
        `(compilation-line-number ((,class (:foreground ,ujelly-grey-0))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
-       `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background "unspecified-bg"))))
-       `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background "unspecified-bg"))))
-       `(diredp-exec-priv ((,class (:foreground ,ujelly-green-2 :background "unspecified-bg"))))
+       `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
+       `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
+       `(diredp-exec-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(diredp-file-name ((,class (:foreground ,ujelly-red-0))))
        `(diredp-file-suffix ((,class (:foreground ,ujelly-red-0))))
        `(diredp-link-priv ((,class (:foreground ,ujelly-green-2))))
        `(diredp-number ((,class (:foreground ,ujelly-fg))))
-       `(diredp-no-priv ((,class (:foreground ,ujelly-fg :background "unspecified-bg"))))
-       `(diredp-rare-priv ((,class (:foreground ,ujelly-red-0 :background "unspecified-bg"))))
-       `(diredp-read-priv ((,class (:foreground ,ujelly-green-2 :background "unspecified-bg"))))
+       `(diredp-no-priv ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
+       `(diredp-rare-priv ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
+       `(diredp-read-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(diredp-symlink ((,class (:foreground ,ujelly-red-1))))
-       `(diredp-write-priv ((,class (:foreground ,ujelly-green-2 :background "unspecified-bg"))))
+       `(diredp-write-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(erc-notice-face ((,class (:foreground ,ujelly-yellow-0))))
        `(erc-prompt-face ((,class (:foreground ,ujelly-fg))))
        `(erc-timestamp-face ((,class (:foreground ,ujelly-purple-0))))
@@ -73,8 +73,8 @@
        `(lazy-highlight ((,class (:foreground nil))))
        `(linum ((,class (:slant italic :foreground ,ujelly-grey-2))))
        `(magit-branch ((,class (:foreground ,ujelly-red-2))))
-       `(magit-diff-add ((,class (:foreground ,ujelly-green-0 :background "unspecified-bg"))))
-       `(magit-diff-del ((,class (:foreground ,ujelly-red-0 :background "unspecified-bg"))))
+       `(magit-diff-add ((,class (:foreground ,ujelly-green-0 :background ,ujelly-bg))))
+       `(magit-diff-del ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(magit-diff-file-header ((,class (:inherit nil :foreground ,ujelly-red-2))))
        `(magit-diff-hunk-header ((,class (:inherit nil :foreground ,ujelly-yellow-0))))
        `(magit-item-highlight ((,class (:background ,ujelly-grey-2))))
