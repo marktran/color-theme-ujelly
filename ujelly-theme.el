@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.15
+;; Version: 1.0.16
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -17,6 +17,7 @@
       (ujelly-grey-0 "#888888")
       (ujelly-grey-1 "#7f7f7f")
       (ujelly-grey-2 "#151515")
+      (ujelly-grey-3 "#1c1c1c")
       (ujelly-orange-0 "#ffb964")
       (ujelly-purple-0 "#8197bf")
       (ujelly-purple-1 "#474e90")
@@ -65,6 +66,13 @@
        `(font-lock-variable-name-face ((,class (:foreground ,ujelly-red-0))))
        `(font-lock-warning-face ((,class (:foreground ,ujelly-red-1))))
        `(header-line ((,class (:foreground ,ujelly-fg))))
+       `(helm-candidate-number ((,class (:background ,ujelly-bg))))
+       `(helm-ff-directory ((,class (:background ,ujelly-bg))))
+       `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
+       `(helm-match ((,class (:foreground ,ujelly-yellow-0))))
+       `(helm-selection ((,class (:background ,ujelly-purple-1))))
+       `(helm-source-header ((,class (:foreground ,ujelly-red-1 :background ,ujelly-grey-3))))
+       `(hl-line ((,class (:background ,ujelly-grey-3))))
        `(isearch ((,class (:inverse-video t))))
        `(isearch-fail ((,class (:background ,ujelly-red-1))))
        `(ido-first-match ((,class (:foreground ,ujelly-yellow-0))))
