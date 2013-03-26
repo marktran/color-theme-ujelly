@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.17
+;; Version: 1.0.18
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -70,7 +70,7 @@
        `(helm-candidate-number ((,class (:background ,ujelly-bg))))
        `(helm-ff-directory ((,class (:background ,ujelly-bg))))
        `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
-       `(helm-match ((,class (:foreground ,ujelly-yellow-0))))
+       `(helm-match ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
        `(helm-selection ((,class (:background ,ujelly-purple-1))))
        `(helm-source-header ((,class (:foreground ,ujelly-red-1 :background ,ujelly-grey-3))))
        `(hl-line ((,class (:background ,ujelly-grey-3))))
