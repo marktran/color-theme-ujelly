@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.19
+;; Version: 1.0.20
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -34,6 +34,9 @@
        `(compilation-error ((,class (:foreground ,ujelly-red-0))))
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
        `(compilation-line-number ((,class (:foreground ,ujelly-grey-0))))
+       `(compilation-mode-line-exit ((,class (:foreground ,ujelly-green-0))))
+       `(compilation-mode-line-fail ((,class (:foreground ,ujelly-red-0))))
+       `(compilation-mode-line-run ((,class (:foreground ,ujelly-yellow-0))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
        `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
