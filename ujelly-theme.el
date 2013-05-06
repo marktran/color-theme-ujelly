@@ -2,14 +2,14 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.21
+;; Version: 1.0.22
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
       (ujelly-fg "#ffffff")
-      (ujelly-bg "unspecified-bg")
+      (ujelly-bg "#000000")
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
@@ -30,7 +30,7 @@
 
       (custom-theme-set-faces
        'ujelly
-       `(default ((,class (:foreground ,ujelly-fg))))
+       `(default ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(compilation-error ((,class (:foreground ,ujelly-red-0))))
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
        `(compilation-line-number ((,class (:foreground ,ujelly-grey-0))))
