@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.23
+;; Version: 1.0.24
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -90,7 +90,7 @@
        `(magit-diff-del ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(magit-diff-file-header ((,class (:inherit nil :foreground ,ujelly-red-2))))
        `(magit-diff-hunk-header ((,class (:inherit nil :foreground ,ujelly-yellow-0))))
-       `(magit-item-highlight ((,class (:background ,ujelly-grey-2))))
+       `(magit-item-highlight ((,class (:weight normal :background ,ujelly-grey-2))))
        `(magit-log-sha1 ((,class (:foreground ,ujelly-red-2))))
        `(magit-log-head-label-local ((,class (:foreground ,ujelly-fg))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
