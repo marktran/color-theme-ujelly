@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.25
+;; Version: 1.0.26
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -50,6 +50,7 @@
        `(diredp-read-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(diredp-symlink ((,class (:foreground ,ujelly-red-1))))
        `(diredp-write-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
+       `(emmet-preview-output ((,class (:background ,ujelly-purple-1))))
        `(erc-notice-face ((,class (:foreground ,ujelly-yellow-0))))
        `(erc-prompt-face ((,class (:foreground ,ujelly-fg))))
        `(erc-timestamp-face ((,class (:foreground ,ujelly-purple-0))))
@@ -105,8 +106,7 @@
        `(smerge-markers ((,class (:foreground ,ujelly-yellow-0))))
        `(smerge-refined-change ((,class (:foreground ,ujelly-green-0))))
        `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
-       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))
-       `(zencoding-preview-output ((,class (:background ,ujelly-purple-1))))))
+       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
 ;;; ###autoload
 (when load-file-name
