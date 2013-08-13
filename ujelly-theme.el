@@ -22,6 +22,8 @@
       (ujelly-purple-0 "#8197bf")
       (ujelly-purple-1 "#474e90")
       (ujelly-purple-2 "#cd00cd")
+      (ujelly-purple-3 "#540063")
+      (ujelly-purple-4 "#a40073")
       (ujelly-red-0 "#cf6a4c")
       (ujelly-red-1 "#dd0093")
       (ujelly-red-2 "#de5577")
