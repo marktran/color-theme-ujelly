@@ -73,6 +73,8 @@
        `(font-lock-type-face ((,class (:foreground ,ujelly-orange-0))))
        `(font-lock-variable-name-face ((,class (:foreground ,ujelly-red-0))))
        `(font-lock-warning-face ((,class (:foreground ,ujelly-red-1))))
+       `(git-commit-comment-file-face ((,class (:foreground ,ujelly-fg))))
+       `(git-commit-summary-face ((,class (:foreground ,ujelly-fg))))
        `(header-line ((,class (:foreground ,ujelly-fg))))
        `(helm-buffer-size ((,class (:foreground ,ujelly-fg))))
        `(helm-candidate-number ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
