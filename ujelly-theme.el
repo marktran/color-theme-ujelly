@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.35
+;; Version: 1.0.36
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -94,13 +94,14 @@
        `(ido-virtual ((,class (:foreground ,ujelly-purple-0))))
        `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
        `(linum ((,class (:slant italic :foreground ,ujelly-grey-2))))
-       `(magit-branch ((,class (:foreground ,ujelly-red-2))))
+       `(magit-branch ((,class (:foreground ,ujelly-red-0))))
        `(magit-diff-add ((,class (:foreground ,ujelly-green-0 :background ,ujelly-bg))))
        `(magit-diff-del ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(magit-diff-file-header ((,class (:inherit nil :foreground ,ujelly-red-2))))
        `(magit-diff-hunk-header ((,class (:inherit nil :foreground ,ujelly-yellow-0))))
        `(magit-item-highlight ((,class (:weight normal :background ,ujelly-grey-2))))
-       `(magit-log-sha1 ((,class (:foreground ,ujelly-red-2))))
+       `(magit-log-author ((,class (:foreground ,ujelly-fg))))
+       `(magit-log-sha1 ((,class (:foreground ,ujelly-red-0))))
        `(magit-log-head-label-local ((,class (:foreground ,ujelly-fg))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
