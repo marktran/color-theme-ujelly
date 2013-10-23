@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.37
+;; Version: 1.0.38
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -85,8 +85,8 @@
        `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
        `(helm-match ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
        `(helm-selection ((,class (:background ,ujelly-purple-1))))
-       `(helm-source-header ((,class (:foreground ,ujelly-red-1 :background ,ujelly-grey-3))))
-       `(hl-line ((,class (:background ,ujelly-grey-3))))
+       `(helm-source-header ((,class (:foreground ,ujelly-red-1 :background ,ujelly-grey-4))))
+       `(hl-line ((,class (:background ,ujelly-grey-4))))
        `(isearch ((,class (:foreground ,ujelly-fg :background ,ujelly-red-1))))
        `(isearch-fail ((,class (:background ,ujelly-red-1))))
        `(ido-first-match ((,class (:foreground ,ujelly-yellow-0))))
@@ -94,7 +94,7 @@
        `(ido-subdir ((,class (:foreground ,ujelly-fg))))
        `(ido-virtual ((,class (:foreground ,ujelly-purple-0))))
        `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
-       `(linum ((,class (:slant italic :foreground ,ujelly-grey-2))))
+       `(linum ((,class (:slant italic :foreground ,ujelly-grey-4))))
        `(magit-branch ((,class (:foreground ,ujelly-red-0))))
        `(magit-diff-add ((,class (:foreground ,ujelly-green-0 :background ,ujelly-bg))))
        `(magit-diff-del ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
