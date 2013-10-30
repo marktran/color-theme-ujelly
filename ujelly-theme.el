@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.39
+;; Version: 1.0.40
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -126,7 +126,7 @@
        `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
        `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
 
-;;; ###autoload
+;;;###autoload
 (when load-file-name
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
