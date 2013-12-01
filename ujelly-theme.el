@@ -75,6 +75,8 @@
        `(font-lock-type-face ((,class (:foreground ,ujelly-orange-0))))
        `(font-lock-variable-name-face ((,class (:foreground ,ujelly-red-0))))
        `(font-lock-warning-face ((,class (:foreground ,ujelly-red-1))))
+       `(font-lock-regexp-grouping-construct ((t (:foreground ,ujelly-yellow-0 :bold t))))
+       `(font-lock-regexp-grouping-backslash ((t (:foreground ,ujelly-red-0 :bold t))))
        `(git-commit-comment-file-face ((,class (:foreground ,ujelly-fg))))
        `(git-commit-comment-heading-face ((,class (:foreground ,ujelly-yellow-0))))
        `(git-commit-summary-face ((,class (:foreground ,ujelly-fg))))
