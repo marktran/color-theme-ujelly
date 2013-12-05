@@ -108,7 +108,7 @@
        `(magit-log-head-label-local ((,class (:foreground ,ujelly-fg))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
        `(match ((,class (:background ,ujelly-red-1))))
-       `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
+       `(minibuffer-prompt ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
