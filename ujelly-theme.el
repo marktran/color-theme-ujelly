@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.41
+;; Version: 1.0.42
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -77,6 +77,7 @@
        `(font-lock-warning-face ((,class (:foreground ,ujelly-red-1))))
        `(font-lock-regexp-grouping-construct ((t (:foreground ,ujelly-yellow-0 :bold t))))
        `(font-lock-regexp-grouping-backslash ((t (:foreground ,ujelly-red-0 :bold t))))
+       `(fringe ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(git-commit-comment-file-face ((,class (:foreground ,ujelly-fg))))
        `(git-commit-comment-heading-face ((,class (:foreground ,ujelly-yellow-0))))
        `(git-commit-summary-face ((,class (:foreground ,ujelly-fg))))
