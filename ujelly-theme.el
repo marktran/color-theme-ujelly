@@ -108,6 +108,7 @@
        `(magit-log-sha1 ((,class (:foreground ,ujelly-red-0))))
        `(magit-log-head-label-local ((,class (:foreground ,ujelly-fg))))
        `(magit-whitespace-warning-face ((,class (:background ,ujelly-red-1))))
+       `(magit-tag ((,class (:foreground ,ujelly-red-0 :background nil))))
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
