@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.0.45
+;; Version: 1.0.46
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -38,9 +38,9 @@
        `(company-preview-common ((,class (:foreground nil :background ,ujelly-purple-1))))
        `(company-scrollbar-bg ((,class (:background ,ujelly-grey-2))))
        `(company-scrollbar-fg ((,class (:background ,ujelly-grey-0))))
-       `(company-tooltip ((,class (:background ,ujelly-grey-2))))
-       `(company-tooltip-common ((,class (:background ,ujelly-grey-2))))
-       `(company-tooltip-common-selection ((,class (:background ,ujelly-purple-1))))
+       `(company-tooltip ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-2))))
+       `(company-tooltip-common ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
+       `(company-tooltip-common-selection ((,class (:foreground ,ujelly-red-0 :background ,ujelly-purple-1))))
        `(company-tooltip-selection ((,class (:background ,ujelly-purple-1))))
        `(compilation-error ((,class (:foreground ,ujelly-red-0))))
        `(compilation-info ((,class (:foreground ,ujelly-yellow-0))))
