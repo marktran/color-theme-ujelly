@@ -129,6 +129,8 @@
        `(org-special-keyword ((,class (:foreground ,ujelly-purple-0))))
        `(org-todo ((,class (:foreground ,ujelly-yellow-0))))
        `(region ((,class (:background ,ujelly-purple-1))))
+       `(shm-current-face ((,class (:background ,ujelly-grey-4))))
+       `(shm-quarantine-face ((,class (:background ,ujelly-red-1))))
        `(smerge-markers ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
        `(smerge-refined-change ((,class (:foreground ,ujelly-green-0))))
        `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
