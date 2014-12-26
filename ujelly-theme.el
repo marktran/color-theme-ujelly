@@ -95,7 +95,7 @@
        `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
        `(helm-match ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
        `(helm-selection ((,class (:background ,ujelly-purple-1))))
-       `(helm-source-header ((,class (:foreground ,ujelly-red-1 :background ,ujelly-grey-4))))
+       `(helm-source-header ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-4))))
        `(hl-line ((,class (:background ,ujelly-grey-4))))
        `(isearch ((,class (:foreground ,ujelly-fg :background ,ujelly-red-1))))
        `(isearch-fail ((,class (:background ,ujelly-red-1))))
