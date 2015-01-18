@@ -126,6 +126,7 @@
        `(org-level-1 ((,class (:foreground ,ujelly-red-2))))
        `(org-level-2 ((,class (:foreground ,ujelly-red-0))))
        `(org-level-3 ((,class (:foreground ,ujelly-red-0))))
+       `(org-link ((,class (:foreground ,ujelly-blue-0))))
        `(org-special-keyword ((,class (:foreground ,ujelly-purple-0))))
        `(org-todo ((,class (:foreground ,ujelly-yellow-0))))
        `(region ((,class (:background ,ujelly-purple-1))))
