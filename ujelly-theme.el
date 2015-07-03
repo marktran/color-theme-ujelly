@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.3
+;; Version: 1.1.4
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -106,11 +106,12 @@
        `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
        `(linum ((,class (:slant italic :foreground ,ujelly-grey-4))))
        `(magit-blame-heading ((,class (:foreground ,ujelly-grey-1 :background ,ujelly-grey-2))))
-       `(magit-branch-local ((,class (:foreground ,ujelly-yellow-0))))
-       `(magit-branch-remote ((,class (:foreground ,ujelly-yellow-0))))
+       `(magit-branch-local ((,class (:foreground ,ujelly-green-2))))
+       `(magit-branch-remote ((,class (:foreground ,ujelly-green-2))))
        `(magit-section-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
        `(magit-diff-added ((,class (:foreground ,ujelly-green-0))))
        `(magit-diff-added-highlight ((,class (:foreground ,ujelly-green-0, :background ,ujelly-grey-2))))
+       `(magit-diff-context ((,class (:foreground ,ujelly-fg))))
        `(magit-diff-context-highlight ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-2))))
        `(magit-diff-file-heading ((,class (:weight normal :foreground ,ujelly-fg :background ,ujelly-bg))))
        `(magit-diff-file-heading-highlight ((,class (:weight normal :foreground ,ujelly-fg :background ,ujelly-grey-2))))
@@ -118,8 +119,8 @@
        `(magit-diff-hunk-heading-highlight ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-3))))
        `(magit-diff-removed ((,class (:foreground ,ujelly-red-0))))
        `(magit-diff-removed-highlight ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
-       `(magit-hash ((,class (:foreground ,ujelly-red-0))))
-       `(magit-section-highlight ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-2))))
+       `(magit-hash ((,class (:foreground ,ujelly-red-1))))
+       `(magit-section-highlight ((,class (:background ,ujelly-grey-2))))
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
