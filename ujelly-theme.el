@@ -117,6 +117,7 @@
        `(magit-diff-file-heading-highlight ((,class (:weight normal :foreground ,ujelly-fg :background ,ujelly-grey-2))))
        `(magit-diff-hunk-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
        `(magit-diff-hunk-heading-highlight ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-3))))
+       `(magit-diff-lines-heading ((,class (:foreground ,ujelly-fg :background ,ujelly-purple-1))))
        `(magit-diff-removed ((,class (:foreground ,ujelly-red-0))))
        `(magit-diff-removed-highlight ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
        `(magit-diffstat-added ((,class (:foreground ,ujelly-green-0))))
