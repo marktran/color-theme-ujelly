@@ -119,6 +119,8 @@
        `(magit-diff-hunk-heading-highlight ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-3))))
        `(magit-diff-removed ((,class (:foreground ,ujelly-red-0))))
        `(magit-diff-removed-highlight ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
+       `(magit-diffstat-added ((,class (:foreground ,ujelly-green-0))))
+       `(magit-diffstat-removed ((,class (:foreground ,ujelly-red-0))))
        `(magit-hash ((,class (:foreground ,ujelly-red-1))))
        `(magit-section-highlight ((,class (:background ,ujelly-grey-2))))
        `(match ((,class (:background ,ujelly-red-1))))
