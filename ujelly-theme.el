@@ -110,7 +110,7 @@
        `(magit-branch-remote ((,class (:foreground ,ujelly-green-2))))
        `(magit-section-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
        `(magit-diff-added ((,class (:foreground ,ujelly-green-0))))
-       `(magit-diff-added-highlight ((,class (:foreground ,ujelly-green-0, :background ,ujelly-grey-2))))
+       `(magit-diff-added-highlight ((,class (:foreground ,ujelly-green-0 :background ,ujelly-grey-2))))
        `(magit-diff-context ((,class (:foreground ,ujelly-fg))))
        `(magit-diff-context-highlight ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-2))))
        `(magit-diff-file-heading ((,class (:weight normal :foreground ,ujelly-fg :background ,ujelly-bg))))
