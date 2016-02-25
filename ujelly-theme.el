@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.14
+;; Version: 1.1.15
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -54,6 +54,7 @@
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-deletion ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
+       `(diredp-dir-name ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(diredp-dir-priv ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(diredp-exec-priv ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(diredp-file-name ((,class (:foreground ,ujelly-fg))))
@@ -98,6 +99,7 @@
        `(helm-buffer-size ((,class (:foreground ,ujelly-fg))))
        `(helm-candidate-number ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(helm-ff-directory ((,class (:background ,ujelly-bg))))
+       `(helm-ff-dotted-directory ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
        `(helm-grep-lineno ((,class (:foreground ,ujelly-fg))))
        `(helm-match ((,class (:foreground ,ujelly-red-1 :background ,ujelly-bg))))
