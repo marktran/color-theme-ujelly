@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.20
+;; Version: 1.1.21
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -106,6 +106,7 @@
        `(helm-ff-dotted-directory ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(helm-ff-dotted-symlink-directory ((,class (:foreground ,ujelly-green-2 :background ,ujelly-bg))))
        `(helm-ff-file ((,class (:foreground ,ujelly-fg))))
+       `(helm-ff-symlink ((,class (:foreground ,ujelly-purple-2))))
        `(helm-grep-lineno ((,class (:foreground ,ujelly-fg))))
        `(helm-match ((,class (:foreground ,ujelly-red-1 :background ,ujelly-bg))))
        `(helm-moccur-buffer ((,class (:foreground ,ujelly-yellow-0))))
