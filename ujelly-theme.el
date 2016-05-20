@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.23
+;; Version: 1.1.24
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -126,6 +126,8 @@
        `(ivy-current-match ((,class (:background ,ujelly-grey-4))))
        `(ivy-minibuffer-match-face-1 ((,class (:foreground ,ujelly-red-1))))
        `(ivy-minibuffer-match-face-2 ((,class (:foreground ,ujelly-red-1))))
+       `(ivy-minibuffer-match-face-3 ((,class (:foreground ,ujelly-red-1))))
+       `(ivy-minibuffer-match-face-4 ((,class (:foreground ,ujelly-red-1))))
        `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
        `(linum ((,class (:slant italic :foreground ,ujelly-grey-4))))
        `(magit-blame-heading ((,class (:foreground ,ujelly-grey-1 :background ,ujelly-grey-2))))
@@ -170,6 +172,8 @@
        `(sp-show-pair-match-face ((,class (:background ,ujelly-grey-5))))
        `(swiper-match-face-1 ((,class (:foreground ,ujelly-red-1))))
        `(swiper-match-face-2 ((,class (:foreground ,ujelly-red-1))))
+       `(swiper-match-face-3 ((,class (:foreground ,ujelly-red-1))))
+       `(swiper-match-face-4 ((,class (:foreground ,ujelly-red-1))))
        `(trailing-whitespace ((,class (:background ,ujelly-red-1))))
        `(web-mode-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(web-mode-html-attr-name-face ((,class (:foreground ,ujelly-purple-0))))
