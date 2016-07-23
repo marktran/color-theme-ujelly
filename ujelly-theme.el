@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.28
+;; Version: 1.1.29
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -40,6 +40,7 @@
        `(alchemist-test--success-face ((,class (:foreground ,ujelly-green-0))))
        `(avy-lead-face ((,class (:foreground ,ujelly-fg :background ,ujelly-red-0))))
        `(avy-lead-face-0 ((,class (:foreground ,ujelly-fg :background ,ujelly-green-0))))
+       `(bm-face ((,class (:background ,ujelly-grey-4))))
        `(company-preview-common ((,class (:foreground nil :background ,ujelly-purple-1))))
        `(company-scrollbar-bg ((,class (:background ,ujelly-grey-2))))
        `(company-scrollbar-fg ((,class (:background ,ujelly-grey-0))))
