@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.29
+;; Version: 1.1.30
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -126,7 +126,7 @@
        `(ido-only-match ((,class (:foreground ,ujelly-green-0))))
        `(ido-subdir ((,class (:foreground ,ujelly-fg))))
        `(ido-virtual ((,class (:foreground ,ujelly-purple-0))))
-       `(ivy-current-match ((,class (:background ,ujelly-grey-4))))
+       `(ivy-current-match ((,class (:background ,ujelly-purple-1))))
        `(ivy-minibuffer-match-face-1 ((,class (:foreground ,ujelly-red-1))))
        `(ivy-minibuffer-match-face-2 ((,class (:foreground ,ujelly-red-1))))
        `(ivy-minibuffer-match-face-3 ((,class (:foreground ,ujelly-red-1))))
