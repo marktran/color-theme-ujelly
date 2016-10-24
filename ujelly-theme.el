@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.30
+;; Version: 1.1.31
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -157,15 +157,19 @@
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
-       `(org-date ((,class (:foreground ,ujelly-purple-0))))
-       `(org-done ((,class (:foreground ,ujelly-green-0))))
+       `(org-date ((,class (:foreground ,ujelly-grey-0))))
+       `(org-done ((,class (:foreground ,ujelly-green-2))))
        `(org-level-1 ((,class (:foreground ,ujelly-red-2))))
        `(org-level-2 ((,class (:foreground ,ujelly-yellow-0))))
        `(org-level-3 ((,class (:foreground ,ujelly-green-1))))
        `(org-level-4 ((,class (:foreground ,ujelly-orange-0))))
+       `(org-level-5 ((,class (:foreground ,ujelly-purple-4))))
+       `(org-level-6 ((,class (:foreground ,ujelly-red-0))))
+       `(org-level-7 ((,class (:foreground ,ujelly-blue-0))))
+       `(org-level-8 ((,class (:foreground ,ujelly-green-0))))
        `(org-link ((,class (:foreground ,ujelly-blue-0))))
        `(org-special-keyword ((,class (:foreground ,ujelly-purple-0))))
-       `(org-todo ((,class (:foreground ,ujelly-yellow-0))))
+       `(org-todo ((,class (:foreground ,ujelly-red-3))))
        `(region ((,class (:background ,ujelly-purple-1))))
        `(shm-current-face ((,class (:background ,ujelly-grey-4))))
        `(shm-quarantine-face ((,class (:background ,ujelly-red-1))))
