@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.1.32
+;; Version: 1.1.33
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -154,6 +154,7 @@
        `(magit-section-highlight ((,class (:background ,ujelly-grey-2))))
        `(match ((,class (:background ,ujelly-red-1))))
        `(minibuffer-prompt ((,class (:foreground ,ujelly-fg))))
+       `(mmm-default-submode-face ((,class (:background ,ujelly-bg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
