@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.2.0
+;; Version: 1.2.1
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -14,6 +14,7 @@
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
       (ujelly-green-2 "#a8ff60")
+      (ujelly-green-3 "#75b5aa")
       (ujelly-grey-0 "#888888")
       (ujelly-grey-1 "#7f7f7f")
       (ujelly-grey-2 "#151515")
@@ -21,11 +22,11 @@
       (ujelly-grey-4 "#363636")
       (ujelly-grey-5 "#444444")
       (ujelly-orange-0 "#ffb964")
+      (ujelly-orange-1 "#f4bf75")
       (ujelly-purple-0 "#8197bf")
       (ujelly-purple-1 "#474e90")
       (ujelly-purple-2 "#cd00cd")
-      (ujelly-purple-3 "#540063")
-      (ujelly-purple-4 "#a40073")
+      (ujelly-purple-3 "#aa759f")
       (ujelly-red-0 "#cf6a4c")
       (ujelly-red-1 "#dd0093")
       (ujelly-red-2 "#de5577")
@@ -178,7 +179,7 @@
        `(org-level-2 ((,class (:foreground ,ujelly-yellow-0))))
        `(org-level-3 ((,class (:foreground ,ujelly-green-1))))
        `(org-level-4 ((,class (:foreground ,ujelly-orange-0))))
-       `(org-level-5 ((,class (:foreground ,ujelly-purple-4))))
+       `(org-level-5 ((,class (:foreground ,ujelly-purple-3))))
        `(org-level-6 ((,class (:foreground ,ujelly-red-0))))
        `(org-level-7 ((,class (:foreground ,ujelly-blue-0))))
        `(org-level-8 ((,class (:foreground ,ujelly-green-0))))
@@ -189,7 +190,7 @@
        `(shm-current-face ((,class (:background ,ujelly-grey-4))))
        `(shm-quarantine-face ((,class (:background ,ujelly-red-1))))
        `(smerge-markers ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
-       `(smerge-mine ((,class (:foreground ,ujelly-fg :background ,ujelly-purple-4))))
+       `(smerge-mine ((,class (:foreground ,ujelly-fg :background ,ujelly-purple-3))))
        `(smerge-other ((,class (:foreground ,ujelly-fg :background ,ujelly-green-1))))
        `(smerge-refined-change ((,class (:foreground ,ujelly-green-0))))
        `(sp-pair-overlay-face ((,class (:background ,ujelly-grey-4))))
@@ -202,6 +203,7 @@
        `(web-mode-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(web-mode-constant-face ((,class (:foreground ,ujelly-purple-0))))
        `(web-mode-css-at-rule-face ((,class (:foreground ,ujelly-blue-0))))
+       `(web-mode-css-property-name-face ((,class (:foreground ,ujelly-green-3))))
        `(web-mode-css-selector-face ((,class (:foreground ,ujelly-yellow-0))))
        `(web-mode-html-attr-name-face ((,class (:foreground ,ujelly-purple-0))))
        `(web-mode-html-tag-face ((,class (:foreground ,ujelly-fg))))
