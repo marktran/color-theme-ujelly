@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.2.4
+;; Version: 1.2.5
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -76,6 +76,7 @@
        `(elixir-atom-face ((,class (:foreground ,ujelly-blue-0))))
        `(elixir-attribute-face ((,class (:foreground ,ujelly-red-0))))
        `(enh-ruby-op-face ((,class (:foreground ,ujelly-purple-0))))
+       `(enh-ruby-regexp-delimiter-face ((,class (:foreground ,ujelly-purple-3))))
        `(erc-notice-face ((,class (:foreground ,ujelly-yellow-0))))
        `(erc-prompt-face ((,class (:foreground ,ujelly-fg))))
        `(erc-timestamp-face ((,class (:foreground ,ujelly-purple-0))))
