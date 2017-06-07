@@ -2,14 +2,14 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.2.8
+;; Version: 1.2.9
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
 
 (let ((class '((class color) (min-colors 89)))
       (ujelly-fg "#ffffff")
-      (ujelly-bg nil)
+      (ujelly-bg (if (display-graphic-p) "#000000" nil))
       (ujelly-blue-0 "#8fbfdc")
       (ujelly-green-0 "#99ad6a")
       (ujelly-green-1 "#447799")
