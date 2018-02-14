@@ -166,6 +166,8 @@
        `(magit-diffstat-removed ((,class (:foreground ,ujelly-red-0))))
        `(magit-hash ((,class (:foreground ,ujelly-red-0))))
        `(magit-log-author ((,class (:foreground ,ujelly-yellow-0))))
+       `(magit-mode-line-process ((,class (:foreground ,ujelly-yellow-0))))
+       `(magit-mode-line-process-error ((,class (:foreground ,ujelly-red-0))))
        `(magit-popup-argument ((,class (:foreground ,ujelly-red-0))))
        `(magit-popup-disabled-argument ((,class (:foreground ,ujelly-grey-0))))
        `(magit-section-highlight ((,class (:background ,ujelly-grey-2))))
