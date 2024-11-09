@@ -152,6 +152,7 @@
        `(magit-branch-current ((,class (:foreground ,ujelly-green-2))))
        `(magit-branch-local ((,class (:foreground ,ujelly-green-2))))
        `(magit-branch-remote ((,class (:foreground ,ujelly-green-2))))
+       `(magit-branch-remote-head ((,class (:foreground ,ujelly-green-2))))
        `(magit-section-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-2))))
        `(magit-diff-added ((,class (:foreground ,ujelly-green-0))))
        `(magit-diff-added-highlight ((,class (:foreground ,ujelly-green-0 :inherit (magit-section-highlight)))))
