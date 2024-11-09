@@ -55,6 +55,7 @@
        `(compilation-mode-line-exit ((,class (:foreground ,ujelly-green-0))))
        `(compilation-mode-line-fail ((,class (:foreground ,ujelly-red-0))))
        `(compilation-mode-line-run ((,class (:foreground ,ujelly-yellow-0))))
+       `(completions-common-part ((,class (:foreground ,ujelly-yellow-0))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-deletion ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
