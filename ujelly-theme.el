@@ -177,6 +177,8 @@
        `(mmm-default-submode-face ((,class (:background ,ujelly-bg))))
        `(mode-line ((,class (:foreground ,ujelly-fg :background nil))))
        `(mode-line-inactive ((,class (:foreground ,ujelly-grey-4 :background nil))))
+       `(orderless-match-face-0 ((,class (:foreground ,ujelly-yellow-0))))
+       `(orderless-match-face-1 ((,class (:foreground ,ujelly-blue-0))))
        `(org-checkbox ((,class (:foreground ,ujelly-green-0))))
        `(org-date ((,class (:foreground ,ujelly-grey-0))))
        `(org-document-info-keyword ((,class (:foreground ,ujelly-yellow-0))))
