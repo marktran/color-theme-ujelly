@@ -2,7 +2,7 @@
 
 ;; Author: Mark Tran <mark.tran@gmail.com>
 ;; URL: http://github.com/marktran/color-theme-ujelly
-;; Version: 1.3.2
+;; Version: 1.3.3
 
 ;; Inspired by jellybeans: http://www.vim.org/scripts/script.php?script_id=2555.
 (deftheme ujelly "The ujelly color theme")
@@ -42,6 +42,7 @@
        `(avy-lead-face ((,class (:foreground ,ujelly-fg :background ,ujelly-red-0))))
        `(avy-lead-face-0 ((,class (:foreground ,ujelly-fg :background ,ujelly-green-0))))
        `(bm-face ((,class (:background ,ujelly-grey-4))))
+       `(button ((,class (:foreground ,ujelly-yellow-0))))
        `(company-preview-common ((,class (:foreground nil :background ,ujelly-purple-1))))
        `(company-scrollbar-bg ((,class (:background ,ujelly-grey-2))))
        `(company-scrollbar-fg ((,class (:background ,ujelly-grey-0))))
@@ -81,6 +82,7 @@
        `(erc-notice-face ((,class (:foreground ,ujelly-yellow-0))))
        `(erc-prompt-face ((,class (:foreground ,ujelly-fg))))
        `(erc-timestamp-face ((,class (:foreground ,ujelly-purple-0))))
+       `(error ((,class (:foreground ,ujelly-red-1))))
        `(eshell-prompt ((,class (:foreground ,ujelly-red-0))))
        `(eshell-ls-directory ((,class (:weight normal :foreground ,ujelly-green-2))))
        `(eshell-ls-executable ((,class (:weight normal :foreground ,ujelly-red-0))))
@@ -93,6 +95,7 @@
        `(flycheck-error-list-info ((,class (:foreground ,ujelly-yellow-0))))
        `(flycheck-info ((,class (:background ,ujelly-grey-4))))
        `(flycheck-warning ((,class (:background ,ujelly-grey-4))))
+       `(flyspell-incorrect ((,class (:foreground ,ujelly-red-1))))
        `(font-lock-builtin-face ((,class (:foreground ,ujelly-blue-0))))
        `(font-lock-comment-face ((,class (:slant italic :foreground ,ujelly-grey-0))))
        `(font-lock-constant-face ((,class (:foreground ,ujelly-green-1))))
@@ -128,6 +131,7 @@
        `(helm-source-header ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-grey-3))))
        `(helm-swoop-target-line-face ((,class (:foreground ,ujelly-fg :background ,ujelly-grey-4))))
        `(helm-swoop-target-word-face ((,class (:foreground ,ujelly-red-1))))
+       `(help-key-binding ((,class (:foreground ,ujelly-green-3))))
        `(highlight ((,class (:background ,ujelly-grey-4))))
        `(highlight-indentation-face ((,class (:background ,ujelly-grey-4))))
        `(highlight-indentation-current-column-face ((,class (:background ,ujelly-grey-4))))
@@ -148,6 +152,7 @@
        `(js2-function-param ((,class (:foreground ,ujelly-fg))))
        `(lazy-highlight ((,class (:foreground ,ujelly-red-1 :background nil))))
        `(line-number ((,class (:slant italic :foreground ,ujelly-grey-4))))
+       `(link ((,class (:foreground ,ujelly-yellow-0))))
        `(magit-blame-heading ((,class (:foreground ,ujelly-grey-1 :background ,ujelly-grey-2))))
        `(magit-branch-current ((,class (:foreground ,ujelly-green-2))))
        `(magit-branch-local ((,class (:foreground ,ujelly-green-2))))
@@ -227,7 +232,8 @@
        `(web-mode-symbol-face ((,class (:foreground ,ujelly-green-1))))
        `(which-key-group-description-face ((,class (:foreground ,ujelly-grey-0))))
        `(which-key-key-face ((,class (:foreground ,ujelly-green-0))))
-       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))))
+       `(whitespace-trailing ((,class (:background ,ujelly-red-1))))
+       `(widget-field ((,class (:background ,ujelly-grey-0))))))
 
 ;;;###autoload
 (when load-file-name
