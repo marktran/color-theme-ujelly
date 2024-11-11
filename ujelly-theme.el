@@ -57,6 +57,7 @@
        `(compilation-mode-line-fail ((,class (:foreground ,ujelly-red-0))))
        `(compilation-mode-line-run ((,class (:foreground ,ujelly-yellow-0))))
        `(completions-common-part ((,class (:foreground ,ujelly-yellow-0))))
+       `(custom-button-unraised ((,class (:background ,ujelly-grey-3))))
        `(diredp-date-time ((,class (:foreground ,ujelly-fg))))
        `(diredp-deletion ((,class (:foreground ,ujelly-red-0 :background ,ujelly-bg))))
        `(diredp-dir-heading ((,class (:foreground ,ujelly-yellow-0 :background ,ujelly-bg))))
@@ -74,6 +75,8 @@
        `(diredp-write-priv ((,class (:foreground ,ujelly-fg :background ,ujelly-bg))))
        `(ediff-odd-diff-A ((,class (:foreground ,ujelly-red-0 :background ,ujelly-grey-2))))
        `(ediff-odd-diff-B ((,class (:foreground ,ujelly-green-0 :background ,ujelly-grey-2))))
+       `(embark-keybinding ((,class (:foreground ,ujelly-green-0))))
+       `(embark-target ((,class (:background ,ujelly-grey-3))))
        `(emmet-preview-output ((,class (:background ,ujelly-purple-1))))
        `(elixir-atom-face ((,class (:foreground ,ujelly-blue-0))))
        `(elixir-attribute-face ((,class (:foreground ,ujelly-red-0))))
@@ -233,7 +236,7 @@
        `(which-key-group-description-face ((,class (:foreground ,ujelly-grey-0))))
        `(which-key-key-face ((,class (:foreground ,ujelly-green-0))))
        `(whitespace-trailing ((,class (:background ,ujelly-red-1))))
-       `(widget-field ((,class (:background ,ujelly-grey-0))))))
+       `(widget-field ((,class (:background ,ujelly-grey-5))))))
 
 ;;;###autoload
 (when load-file-name
